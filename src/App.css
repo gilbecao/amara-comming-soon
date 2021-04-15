@@ -1,0 +1,83 @@
+button, input {
+  border: none
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/mobile.png');
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+
+  min-width: 440px;
+}
+
+.app__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  position: relative;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  color: #DCA356;
+  font-family: Georgia;
+  font-size: 75px;
+  margin: 0;
+}
+.container__soon {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+  position: absolute;
+}
+img {
+  width: 200px;
+}
+
+.counter {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.container__mail {
+  margin-top: 50px;
+  height: 30px;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  width: 220px;
+  height: 85%;
+
+  padding-left: 10px;
+  background-color: #E0E0DE;
+}
+
+button {
+  height: 100%;
+  width: 120px;
+  margin: 0;
+  padding: 0;
+  background-color: #DCA356;
+  color: #F2DCC0;
+}
+
+
+
+@media (min-width: 840px) {
+  .app {
+    background-image: url('./assets/desktop.png');
+    background-size: cover;
+  }
+
+  .app__container {
+    width: calc(100vw / 2);
+  }
+}
