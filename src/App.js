@@ -1,7 +1,7 @@
-import Counter from './components/counter'
 import './App.css';
 
-import soon from './assets/soon.png'
+import soon from './assets/soon.png';
+import logo from './assets/amarahotels-logo-vertical.svg';
 
 function App() {
   return (
@@ -12,7 +12,9 @@ function App() {
         <div className="container__soon">
           <img src={soon} alt="soon"/>
         </div>
-        <Counter />
+        <div>
+          <img src={logo} className="logo" alt="Amara hotels logo"/>
+        </div>
       </div>
     </div>
   );
